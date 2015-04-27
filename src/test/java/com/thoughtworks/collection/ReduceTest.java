@@ -7,9 +7,8 @@ import java.util.List;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 
-/**
- * Created by hgwang on 4/27/15.
- */
+
+
 public class ReduceTest {
 
     @Test
