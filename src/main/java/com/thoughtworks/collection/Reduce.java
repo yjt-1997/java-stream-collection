@@ -1,5 +1,7 @@
 package com.thoughtworks.collection;
 
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 import java.util.List;
 
 public class Reduce {
@@ -11,34 +13,38 @@ public class Reduce {
     }
 
     public int getSum() {
-        return 0;
+        throw new NotImplementedException();
     }
 
     public int getMaximum() {
-        return 0;
+        throw new NotImplementedException();
     }
 
     public double getMinimum() {
-        return 0;
+        throw new NotImplementedException();
     }
 
     public double getOrderedMedian() {
-        return 0;
+        throw new NotImplementedException();
     }
 
     public double getUnorderedMedian() {
-        return 0;
+        throw new NotImplementedException();
     }
 
     public int getFirstEven() {
-        return 0;
+        throw new NotImplementedException();
     }
 
     public int getIndexOfFirstEven() {
-        return 0;
+        throw new NotImplementedException();
     }
 
     public boolean isEqual(List<Integer> arrayList) {
-        return false;
+        throw new NotImplementedException();
+    }
+
+    public Double getMedianInLinkList() {
+        throw new NotImplementedException();
     }
 }

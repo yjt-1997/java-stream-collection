@@ -55,23 +55,15 @@ public class ReduceTest {
     public void should_get_element_in_middle_position_with_order_elements(){
         Integer[] array = new Integer[]{1,1,1,2,3};
         List<Integer> arrayList = Arrays.asList(array);
-
         Reduce reduce = new Reduce(arrayList);
+
         assertThat(reduce.getOrderedMedian()).isEqualTo(1);
-    }
 
-    @Test
-    public void should_get_element_in_middle_position_with_even_elements(){
-        Integer[] OddArray = new Integer[]{1,1,2,3};
-        List<Integer> arrayList = Arrays.asList(OddArray);
-
-        Reduce oddReduce = new Reduce(arrayList);
-        assertThat(oddReduce.getOrderedMedian()).isEqualTo(1.5);
 
         Integer[] evenArray = new Integer[]{1,1,2,3};
         List<Integer> EvenArrayList = Arrays.asList(evenArray);
-
         Reduce evenReduce = new Reduce(EvenArrayList);
+
         assertThat(evenReduce.getOrderedMedian()).isEqualTo(1.5);
     }
 
@@ -84,6 +76,15 @@ public class ReduceTest {
         assertThat(reduce.getUnorderedMedian()).isEqualTo(8.5);
     }
 
+    @Test
+    public void should_get_element_in_middle_position_in_linkList(){
+        Integer[] array = new Integer[] {1,4,6,2,3,10,9,8,11,2,19,30};
+        List<Integer> arrayList = Arrays.asList(array);
+//        Iterator<Integer> arrayIterator = arrayList.iterator();
+
+        Reduce reduce = new Reduce(arrayList);
+        assertThat(reduce.getMedianInLinkList()).isEqualTo(8.5);
+    }
     @Test
     public void should_return_first_even_element(){
         Integer[] array = new Integer[] {1,11,27,20,4,9,15};
