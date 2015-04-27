@@ -2,9 +2,6 @@ package com.thoughtworks.collection;
 
 import java.util.List;
 
-/**
- * Created by hgwang on 4/27/15.
- */
 public class Reduce {
 
     List<Integer> arrayList;
