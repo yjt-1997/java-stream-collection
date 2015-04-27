@@ -1,37 +1,43 @@
 package com.thoughtworks.collection;
 
+import java.util.List;
+
 /**
  * Created by hgwang on 4/27/15.
  */
 public class Map {
 
-    int[] array;
+    List<Integer> array;
 
-    public Map(int[] array) {
+    public Map(List<Integer> array) {
         this.array = array;
     }
 
-    public int[] getDouble() {
-        return new int[0];
+    public List<Integer> getDouble() {
+        return null;
     }
 
-    public int[] getTriple() {
-        return new int[0];
+    public List<Integer> getTriple() {
+        return null;
     }
 
-    public int[] getFourFoldThenAddOne() {
-        return new int[0];
+    public List<Integer> getFourFoldThenAddOne() {
+        return null;
     }
 
-    public String[] mapLetter() {
-        return new String[0];
+    public List<String> mapLetter() {
+        return null;
     }
 
-    public String[] mapLetters() {
-        return new String[0];
+    public List<String> mapLetters() {
+        return null;
     }
 
-    public int[] sortFromBig() {
-        return new int[0];
+    public List<Integer> sortFromBig() {
+        return null;
+    }
+
+    public List<Integer> sortFromSmall() {
+        return null;
     }
 }
