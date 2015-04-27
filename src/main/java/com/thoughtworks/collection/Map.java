@@ -1,5 +1,7 @@
 package com.thoughtworks.collection;
 
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 import java.util.List;
 
 /**
@@ -14,30 +16,30 @@ public class Map {
     }
 
     public List<Integer> getDouble() {
-        return null;
+        throw new NotImplementedException();
     }
 
     public List<Integer> getTriple() {
-        return null;
+        throw new NotImplementedException();
     }
 
     public List<Integer> getFourFoldThenAddOne() {
-        return null;
+        throw new NotImplementedException();
     }
 
     public List<String> mapLetter() {
-        return null;
+        throw new NotImplementedException();
     }
 
     public List<String> mapLetters() {
-        return null;
+        throw new NotImplementedException();
     }
 
     public List<Integer> sortFromBig() {
-        return null;
+        throw new NotImplementedException();
     }
 
     public List<Integer> sortFromSmall() {
-        return null;
+        throw new NotImplementedException();
     }
 }
