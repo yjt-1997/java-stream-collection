@@ -1,10 +1,8 @@
 package com.thoughtworks.collection;
 
 import java.util.List;
+import java.util.Map;
 
-/**
- * Created by hgwang on 4/27/15.
- */
 public class Filter {
 
     List<Integer>  array;
@@ -25,7 +23,19 @@ public class Filter {
         return null;
     }
 
-    public List<Integer> getDifferentElements(List<Integer> firstList, List<Integer> secondList) {
+    public List<Integer> getDifferentElements() {
+        return null;
+    }
+
+    public List<Integer> getUncommonElements(List<Integer> firstList, List<Integer> secondList) {
+        return null;
+    }
+
+    public Map getMapOfArrayList() {
+        return null;
+    }
+
+    public Integer[][] getDividedArray() {
         return null;
     }
 }
