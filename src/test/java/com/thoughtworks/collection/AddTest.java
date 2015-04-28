@@ -2,8 +2,7 @@ package com.thoughtworks.collection;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 
@@ -133,6 +132,18 @@ public class AddTest {
 
         Add add = new Add();
         assertThat(add.getUnrepeatedFromEvenIndex(arrayList)).isEqualTo(resultList);
+    }
+
+    @Test
+    public void should_divide_evens(){
+        Add add = new Add();
+
+        Integer[] array = new Integer[] {1,12,3,24,5,16,7,118,6};
+        List<Integer> arrayList = Arrays.asList(array);
+
+        assertThat(add.mapEvens(arrayList).get(1)).isEqualTo(1);
+        assertThat(add.mapEvens(arrayList).get(2)).isEqualTo(3);
+        assertThat(add.mapEvens(arrayList).get(3)).isEqualTo(1);
     }
 
     @Test
