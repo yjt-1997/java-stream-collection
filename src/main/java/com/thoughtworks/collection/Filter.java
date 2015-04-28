@@ -33,7 +33,7 @@ public class Filter {
         throw new NotImplementedException();
     }
 
-    public Map getMapOfArrayList() {
+    public Map<Integer, Integer> getMapOfArrayList() {
         throw new NotImplementedException();
     }
 

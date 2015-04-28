@@ -3,6 +3,7 @@ package com.thoughtworks.collection;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.List;
+import java.util.Map;
 
 public class Add {
     public int getSumOfEvens(int leftBorder, int rightBorder) {
@@ -50,6 +51,10 @@ public class Add {
     }
 
     public List<Integer> sortByEvenAndOdd(List<Integer> arrayList) {
+        throw new NotImplementedException();
+    }
+
+    public Map<Integer, Integer> mapEvens(List<Integer> arrayList) {
         throw new NotImplementedException();
     }
 }

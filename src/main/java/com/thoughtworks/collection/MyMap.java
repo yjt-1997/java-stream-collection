@@ -7,11 +7,11 @@ import java.util.List;
 /**
  * Created by hgwang on 4/27/15.
  */
-public class Map {
+public class MyMap {
 
     List<Integer> array;
 
-    public Map(List<Integer> array) {
+    public MyMap(List<Integer> array) {
         this.array = array;
     }
 
