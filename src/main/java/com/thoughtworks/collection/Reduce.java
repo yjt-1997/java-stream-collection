@@ -48,4 +48,16 @@ public class Reduce {
     public Double getMedianInLinkList() {
         throw new NotImplementedException();
     }
+
+    public double getAverage() {
+        throw new NotImplementedException();
+    }
+
+    public int getLastEven() {
+        throw new NotImplementedException();
+    }
+
+    public int getIndexOfLastEven() {
+        throw new NotImplementedException();
+    }
 }
