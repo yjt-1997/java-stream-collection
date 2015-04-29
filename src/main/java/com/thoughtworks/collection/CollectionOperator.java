@@ -2,24 +2,26 @@ package com.thoughtworks.collection;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
+import java.util.List;
+
 public class CollectionOperator {
-    public int[] getListByInterval(int left, int right) {
+    public List<Integer> getListByInterval(int left, int right) {
         throw new NotImplementedException();
     }
 
-    public int[] getListByTwoIntervals(int left, int right) {
+    public List<Integer> getEvenListByIntervals(int left, int right) {
         throw new NotImplementedException();
     }
 
-    public String[] getLetterListByInterval(int left, int right) {
+    public List<String> getLetterListByInterval(int left, int right) {
         throw new NotImplementedException();
     }
 
-    public String[] getLoopLetterListByInterval(int left, int right) {
+    public List<String> getLoopLetterListByInterval(int left, int right) {
         throw new NotImplementedException();
     }
 
-    public int[] popEvenElments(int[] array) {
+    public List<Integer> popEvenElments(int[] array) {
         throw new NotImplementedException();
     }
 
@@ -27,11 +29,11 @@ public class CollectionOperator {
         throw new NotImplementedException();
     }
 
-    public int[] popCommonElement(int[] firstArray, int[] secondArray) {
+    public List<Integer> popCommonElement(int[] firstArray, int[] secondArray) {
         throw new NotImplementedException();
     }
 
-    public int[] addUncommonElement(int[] firstArray, int[] secondArray) {
+    public List<Integer> addUncommonElement(Integer[] firstArray, Integer[] secondArray) {
         throw new NotImplementedException();
     }
 }
