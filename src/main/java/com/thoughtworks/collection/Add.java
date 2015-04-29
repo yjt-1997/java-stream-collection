@@ -57,4 +57,16 @@ public class Add {
     public Map<Integer, Integer> mapEvens(List<Integer> arrayList) {
         throw new NotImplementedException();
     }
+
+    public String MapMedianToLetter(Integer left, Integer right) {
+        throw new NotImplementedException();
+    }
+
+    public String mapAverageToLetter(List<Integer> arrayList) {
+        throw new NotImplementedException();
+    }
+
+    public List<Integer> getProcessedList(List<Integer> arrayList) {
+        throw new NotImplementedException();
+    }
 }

@@ -27,10 +27,15 @@ public class AddTest {
         assertThat(add.getSumOfOdds(leftBorder, rightBorder)).isEqualTo(25);
     }
 
-//    @Test
-//    public void should_map_median_to_letter(){
-//
-//    }
+    @Test
+    public void should_map_median_to_letter(){
+        Integer left = 20;
+        Integer right = 53;
+
+        Add add = new Add();
+
+        assertThat(add.MapMedianToLetter(left, right)).isEqualTo("j");
+    }
 
     @Test
     public void should_get_triple_and_add_two(){
@@ -73,22 +78,36 @@ public class AddTest {
         Integer[] array = new Integer[]{1,2,3,4,5,6,7,8,9,10};
         List<Integer> arrayList = Arrays.asList(array);
 
-        Object[] result = new Object[]{1,"b",3,"d",4,"f",5,"h",7,"g",9,"l"};
+        Object[] result = new Object[]{1,"b",3,"d",4,"f",5,"h",7,"j",9,"l"};
         List<Object> resultObject = Arrays.asList(result);
 
         Add add = new Add();
         assertThat(add.mapEvenToLetter(arrayList)).isEqualTo(resultObject);
     }
 
-//    @Test
-//    public void should_map_average_to_letter(){
-//
-//    }
+    @Test
+    public void should_map_average_to_letter(){
 
-//    @Test
-//    public void should_envolve_every_elements(){
-//
-//    }
+        Integer[] array = new Integer[]{1,2,3,4,5,6,7,8,9,10};
+        List<Integer> arrayList = Arrays.asList(array);
+
+        Add add = new Add();
+
+        assertThat(add.mapAverageToLetter(arrayList)).isEqualTo("e");
+    }
+
+    @Test
+    public void should_process_elements(){
+        Integer[] array = new Integer[]{1,3,5,7,9,11,13,15,17,19,21};
+        List<Integer> arrayList = Arrays.asList(array);
+
+        Add add = new Add();
+
+        Integer[] result = new Integer[]{12,24,36,48,60,72,84,96,108,120};
+        List<Integer> resultList = Arrays.asList(result);
+
+        assertThat(add.getProcessedList(arrayList)).isEqualTo(resultList);
+    }
 
     @Test
     public void should_return_median_of_even_index(){
