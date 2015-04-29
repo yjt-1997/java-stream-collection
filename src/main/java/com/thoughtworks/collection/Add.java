@@ -14,11 +14,11 @@ public class Add {
         throw new NotImplementedException();
     }
 
-    public List<Integer> getTipleAndAddTwo(List<Integer> arrayList) {
+    public int getSumTripleAndAddTwo(List<Integer> arrayList) {
         throw new NotImplementedException();
     }
 
-    public List<Integer> getTipleOfOddAndAddTwo(List<Integer> arrayList) {
+    public List<Integer> getTripleOfOddAndAddTwo(List<Integer> arrayList) {
         throw new NotImplementedException();
     }
 
