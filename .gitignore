@@ -7,5 +7,5 @@ gradle
 *.iws
 gradlew
 gradlew.bat
-
+out
 .DS_Store
