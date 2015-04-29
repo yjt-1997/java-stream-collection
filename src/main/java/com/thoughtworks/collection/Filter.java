@@ -37,7 +37,7 @@ public class Filter {
         throw new NotImplementedException();
     }
 
-    public Integer[][] getDividedArray() {
+    public List<List<Integer>> getDividedArray() {
         return null;
     }
 
