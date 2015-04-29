@@ -2,6 +2,8 @@ package com.thoughtworks.collection;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
+import java.util.List;
+
 /**
  * Created by hgwang on 4/27/15.
  */
@@ -12,11 +14,11 @@ public class Flaten {
         this.array = array;
     }
 
-    public Integer[] transformToOneDimesional() {
+    public List<Integer> transformToOneDimesional() {
         throw new NotImplementedException();
     }
 
-    public Integer[] transformToUnrepeatedOneDimesional() {
+    public List<Integer> transformToUnrepeatedOneDimesional() {
         throw new NotImplementedException();
     }
 }
