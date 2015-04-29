@@ -40,4 +40,8 @@ public class Filter {
     public Integer[][] getDividedArray() {
         return null;
     }
+
+    public List<Integer> getElementsByRelationship(FilterHandler filterHandler, List<Integer> objectList) {
+        throw new NotImplementedException();
+    }
 }
