@@ -45,7 +45,7 @@ public class Reduce {
     }
 
     //实现接口SingleLink，然后再此函数内使用
-    public Double getMedianInLinkList() {
+    public Double getMedianInLinkList(SingleLink singleLink) {
         throw new NotImplementedException();
     }
 
