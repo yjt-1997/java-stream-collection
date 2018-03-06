@@ -12,15 +12,15 @@ public class Reduce {
         this.arrayList = arrayList;
     }
 
-    public int getSum() {
-        throw new NotImplementedException();
-    }
-
     public int getMaximum() {
         throw new NotImplementedException();
     }
 
     public double getMinimum() {
+        throw new NotImplementedException();
+    }
+
+    public double getAverage() {
         throw new NotImplementedException();
     }
 
@@ -49,15 +49,11 @@ public class Reduce {
         throw new NotImplementedException();
     }
 
-    public double getAverage() {
+    public int getLastOdd() {
         throw new NotImplementedException();
     }
 
-    public int getLastEven() {
-        throw new NotImplementedException();
-    }
-
-    public int getIndexOfLastEven() {
+    public int getIndexOfLastOdd() {
         throw new NotImplementedException();
     }
 }

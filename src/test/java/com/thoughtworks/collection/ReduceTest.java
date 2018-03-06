@@ -12,16 +12,6 @@ import static org.mockito.Mockito.*;
 public class ReduceTest {
 
     @Test
-    public void should_get_the_sum_of_elements (){
-        Integer[] array = new Integer[]{1,2,3,4,5};
-        List<Integer> arrayList = Arrays.asList(array);
-
-        Reduce reduce = new Reduce(arrayList);
-
-        assertThat(reduce.getSum()).isEqualTo(15);
-    }
-
-    @Test
     public void should_get_maximum_of_list(){
         Integer[] array = new Integer[]{1,5,7,2,8,9,3,2};
         List<Integer> arrayList = Arrays.asList(array);
@@ -116,7 +106,7 @@ public class ReduceTest {
         List<Integer> arrayList = Arrays.asList(array);
 
         Reduce reduce = new Reduce(arrayList);
-        assertThat(reduce.getLastEven()).isEqualTo(15);
+        assertThat(reduce.getLastOdd()).isEqualTo(15);
     }
 
     @Test
@@ -125,7 +115,7 @@ public class ReduceTest {
         List<Integer> arrayList = Arrays.asList(array);
 
         Reduce reduce = new Reduce(arrayList);
-        assertThat(reduce.getIndexOfLastEven()).isEqualTo(9);
+        assertThat(reduce.getIndexOfLastOdd()).isEqualTo(9);
     }
 
     @Test

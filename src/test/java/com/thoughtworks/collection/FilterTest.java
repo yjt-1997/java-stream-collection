@@ -130,26 +130,3 @@ public class FilterTest {
         assertThat(filter.getElementsByRelationship(filterHandler, objectList)).isEqualTo(resultList);
     }
 }
-
-//class NewFilter<T> {
-//    private List<T> items;
-//
-//    public NewFilter(List<T> items) {
-//        this.items = items;
-//    }
-//
-//    public List<T> filter(FilterHandler<T> handler){
-//        List<T> result = new ArrayList<T>();
-//        for(T item : items) {
-//            if (handler.apply(item)) {
-//                result.add(item);
-//            }
-//        }
-//
-//        return result;
-//    }
-//}
-//
-//interface FilterHandler<T>{
-//    public boolean apply(T t);
-//}
