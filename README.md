@@ -30,4 +30,4 @@
 
 注意：初次运行test 会发现测试失败 
 
-执行gradle idea，然后idea .即可在Intellj IDEA中打开项目。
+执行gradle idea，然后idea .即可在Intellij IDEA中打开项目。
