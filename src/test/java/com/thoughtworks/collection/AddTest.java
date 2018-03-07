@@ -1,12 +1,9 @@
 package com.thoughtworks.collection;
 
 import org.junit.Test;
-
 import java.util.Arrays;
 import java.util.List;
-
 import static org.fest.assertions.api.Assertions.assertThat;
-
 
 public class AddTest {
 

@@ -1,9 +1,7 @@
 package com.thoughtworks.collection;
 
 import org.junit.Test;
-
 import java.util.*;
-
 import static org.fest.assertions.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
