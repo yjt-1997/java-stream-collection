@@ -16,7 +16,7 @@
 
 + 运行测试：
 
-> ./gradlew test  跑全部的测试
+> ./gradlew clean test  跑全部的测试
   完成一个函数的测试可以单独运行，推荐使用快捷键 Ctrl+shift+R (mac) 
 
 注意：初次运行test 会发现测试失败 
