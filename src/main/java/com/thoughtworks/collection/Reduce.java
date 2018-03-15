@@ -28,10 +28,6 @@ public class Reduce {
         throw new NotImplementedException();
     }
 
-    public double getUnorderedMedian() {
-        throw new NotImplementedException();
-    }
-
     public int getFirstEven() {
         throw new NotImplementedException();
     }
