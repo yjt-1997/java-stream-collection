@@ -28,16 +28,4 @@ public class Filter {
     public List<Integer> getDifferentElements() {
         throw new NotImplementedException();
     }
-
-    public List<Integer> getUncommonElements(List<Integer> firstList, List<Integer> secondList) {
-        throw new NotImplementedException();
-    }
-
-    public Map<Integer, Integer> getMapOfArrayList() {
-        throw new NotImplementedException();
-    }
-
-    public List<List<Integer>> getDividedArray() {
-        return null;
-    }
 }
