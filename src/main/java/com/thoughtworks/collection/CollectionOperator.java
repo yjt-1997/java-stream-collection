@@ -13,14 +13,6 @@ public class CollectionOperator {
         throw new NotImplementedException();
     }
 
-    public List<String> getLetterListByInterval(int left, int right) {
-        throw new NotImplementedException();
-    }
-
-    public List<String> getLoopLetterListByInterval(int left, int right) {
-        throw new NotImplementedException();
-    }
-
     public List<Integer> popEvenElments(int[] array) {
         throw new NotImplementedException();
     }
