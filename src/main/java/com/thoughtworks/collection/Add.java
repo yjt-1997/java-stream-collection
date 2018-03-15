@@ -26,10 +26,6 @@ public class Add {
         throw new NotImplementedException();
     }
 
-    public List<Object> mapEvenToLetter(List<Integer> arrayList) {
-        throw new NotImplementedException();
-    }
-
     public double getMedianOfEvenIndex(List<Integer> arrayList) {
         throw new NotImplementedException();
     }
@@ -46,21 +42,10 @@ public class Add {
         throw new NotImplementedException();
     }
 
-    public List<Integer> sortByTwoBigOneSmall(List<Integer> firstArrayList) {
-        throw new NotImplementedException();
-    }
-
     public List<Integer> sortByEvenAndOdd(List<Integer> arrayList) {
         throw new NotImplementedException();
     }
 
-    public Map<Integer, Integer> mapEvens(List<Integer> arrayList) {
-        throw new NotImplementedException();
-    }
-
-    public String MapMedianToLetter(Integer left, Integer right) {
-        throw new NotImplementedException();
-    }
 
     public String mapAverageToLetter(List<Integer> arrayList) {
         throw new NotImplementedException();
