@@ -67,18 +67,6 @@ public class AddTest {
     }
 
     @Test
-    public void should_map_average_to_letter() {
-        // 求数组平均数在的字母表中对应的位置的字母
-
-        Integer[] array = new Integer[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        List<Integer> arrayList = Arrays.asList(array);
-
-        Add add = new Add();
-
-        assertThat(add.mapAverageToLetter(arrayList)).isEqualTo("e");
-    }
-
-    @Test
     public void should_process_elements() {
         // 数组中前一个元素和后一个元素的和的3倍的数组
         Integer[] array = new Integer[]{1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21};
@@ -121,10 +109,10 @@ public class AddTest {
         Add add = new Add();
 
         Integer existedElment = 3;
-        assertThat(add.isIncludedInEvenIndex(arrayList, existedElment)).isEqualTo(true);
+        assertThat(add.isIncludedInEvenIndex(arrayList, existedElment)).isEqualTo(false);
 
         Integer unexistedElment = 2;
-        assertThat(add.isIncludedInEvenIndex(arrayList, unexistedElment)).isEqualTo(false);
+        assertThat(add.isIncludedInEvenIndex(arrayList, unexistedElment)).isEqualTo(true);
     }
 
     @Test
@@ -133,7 +121,7 @@ public class AddTest {
         Integer[] array = new Integer[]{1, 2, 3, 4, 1, 5};
         List<Integer> arrayList = Arrays.asList(array);
 
-        Integer[] result = new Integer[]{1, 3};
+        Integer[] result = new Integer[]{2, 4};
         List<Integer> resultList = Arrays.asList(result);
 
         Add add = new Add();

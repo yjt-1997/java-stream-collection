@@ -45,11 +45,6 @@ public class Add {
         throw new NotImplementedException();
     }
 
-
-    public String mapAverageToLetter(List<Integer> arrayList) {
-        throw new NotImplementedException();
-    }
-
     public List<Integer> getProcessedList(List<Integer> arrayList) {
         throw new NotImplementedException();
     }
