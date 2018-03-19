@@ -45,7 +45,7 @@ public class ReduceTest {
 
     @Test
     public void should_get_element_in_middle_position_with_order_elements() {
-        // 获取数组中间位置的数
+        // 获取数组中位数
         Integer[] array = new Integer[]{1, 1, 1, 2, 3};
         List<Integer> arrayList = Arrays.asList(array);
         Reduce reduce = new Reduce(arrayList);
