@@ -81,23 +81,23 @@ public class AddTest {
     }
 
     @Test
-    public void should_return_median_of_even_index() {
+    public void should_return_median_of_even() {
         //求数组中所有偶数组成的数组的中位数
         Integer[] array = new Integer[]{1, 2, 3, 4, 5};
         List<Integer> arrayList = Arrays.asList(array);
 
         Add add = new Add();
-        assertThat(add.getMedianOfEvenIndex(arrayList)).isEqualTo((double) 3);
+        assertThat(add.getMedianOfEven(arrayList)).isEqualTo((double) 3);
     }
 
     @Test
-    public void should_return_average_of_even_index() {
+    public void should_return_average_of_even() {
         //求数组中所有偶数的平均数
         Integer[] array = new Integer[]{1, 2, 3, 4, 5};
         List<Integer> arrayList = Arrays.asList(array);
 
         Add add = new Add();
-        assertThat(add.getAverageOfEvenIndex(arrayList)).isEqualTo((double) 3);
+        assertThat(add.getAverageOfEven(arrayList)).isEqualTo((double) 3);
     }
 
     @Test

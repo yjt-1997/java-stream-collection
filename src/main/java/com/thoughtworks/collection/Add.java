@@ -25,11 +25,11 @@ public class Add {
         throw new NotImplementedException();
     }
 
-    public double getMedianOfEvenIndex(List<Integer> arrayList) {
+    public double getMedianOfEven(List<Integer> arrayList) {
         throw new NotImplementedException();
     }
 
-    public double getAverageOfEvenIndex(List<Integer> arrayList) {
+    public double getAverageOfEven(List<Integer> arrayList) {
         throw new NotImplementedException();
     }
 
