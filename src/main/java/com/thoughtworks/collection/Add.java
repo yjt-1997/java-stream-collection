@@ -25,9 +25,9 @@ public class Add {
         throw new NotImplementedException();
     }
 
-    public double getMedianOfEven(List<Integer> arrayList) {
-        throw new NotImplementedException();
-    }
+//    public double getMedianOfEven(List<Integer> arrayList) {
+//        throw new NotImplementedException();
+//    }
 
     public double getAverageOfEven(List<Integer> arrayList) {
         throw new NotImplementedException();
@@ -41,11 +41,11 @@ public class Add {
         throw new NotImplementedException();
     }
 
-    public List<Integer> sortByEvenAndOdd(List<Integer> arrayList) {
-        throw new NotImplementedException();
-    }
+//    public List<Integer> sortByEvenAndOdd(List<Integer> arrayList) {
+//        throw new NotImplementedException();
+//    }
 
-    public List<Integer> getProcessedList(List<Integer> arrayList) {
-        throw new NotImplementedException();
-    }
+//    public List<Integer> getProcessedList(List<Integer> arrayList) {
+//        throw new NotImplementedException();
+//    }
 }
