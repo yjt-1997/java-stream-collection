@@ -17,7 +17,7 @@ public class Add {
         if(isEven){
             return IntStream.rangeClosed(leftBorder, rightBorder).filter(i -> i % 2 == 0).sum();
         }
-        return return IntStream.rangeClosed(leftBorder, rightBorder).filter(i -> i % 2 != 0).sum();
+        return IntStream.rangeClosed(leftBorder, rightBorder).filter(i -> i % 2 != 0).sum();
         
     }
     public int getSumOfEvens(int leftBorder, int rightBorder) {
