@@ -8,22 +8,24 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Add {
-    public int getSumOfEvens(int leftBorder, int rightBorder) {
+    public int getSum(int leftBorder,int rightBorder,boolean isEven){
         if (leftBorder > rightBorder) {
             int temp = leftBorder;
             leftBorder = rightBorder;
             rightBorder = temp;
         }
-        return IntStream.rangeClosed(leftBorder, rightBorder).filter(i -> i % 2 == 0).sum();
+        if(isEven){
+            return IntStream.rangeClosed(leftBorder, rightBorder).filter(i -> i % 2 == 0).sum();
+        }
+        return return IntStream.rangeClosed(leftBorder, rightBorder).filter(i -> i % 2 != 0).sum();
+        
+    }
+    public int getSumOfEvens(int leftBorder, int rightBorder) {
+        return getSum(leftBorder,rightBorder,true);
     }
 
     public int getSumOfOdds(int leftBorder, int rightBorder) {
-        if (leftBorder > rightBorder) {
-            int temp = leftBorder;
-            leftBorder = rightBorder;
-            rightBorder = temp;
-        }
-        return IntStream.rangeClosed(leftBorder, rightBorder).filter(i -> i % 2 != 0).sum();
+        return getSum(leftBorder,rightBorder,false);
     }
 
     public int getSumTripleAndAddTwo(List<Integer> arrayList) {
